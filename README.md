@@ -20,10 +20,13 @@ Esta es una aplicación web sencilla desarrollada con **HTML5**, **CSS** y **Jav
 
 ## 📁 Estructura del Proyecto
 
-├── css/main.css # Estilos personalizados
-├── js/main.js # Lógica JavaScript
-├── index.html # Archivo principal HTML
-├── README.md # Este archivo
+  ├── css/main.css # Estilos personalizados
+
+  ├── js/main.js # Lógica JavaScript
+
+  ├── index.html # Archivo principal HTML
+
+  ├── README.md # Este archivo
 
 ---
 
@@ -40,6 +43,7 @@ Esta es una aplicación web sencilla desarrollada con **HTML5**, **CSS** y **Jav
 ## 🎓 Autor
 
 **Josué Cortez - CA242249**
+
 Desarrollado como parte del curso _Desarrollo de Aplicaciones Web con Software Interpretado en el Cliente_.
 
 ---
