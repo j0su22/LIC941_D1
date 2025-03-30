@@ -8,12 +8,17 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
     <div class="container">
-      <h1 id="titulo" class="text-center mb-4">Presupuesto de</h1>
+      <form id="form-month" class="mb-4 drop-list-months">
+        <div class="col-md-3">
+            <select id="month-list" class="form-control"></select>
+        </div>
+      </form>
+      <h1 id="titulo" class="text-center mb-4"></h1>
 
       <div class="card mb-4">
         <div class="card-body">
@@ -23,15 +28,18 @@
           <div class="row text-center mt-3">
             <div class="col">
               <h5>Ingresos</h5>
-              <p class="text-success">$<span id="total-ingresos">0.00</span></p>
+              <p class="text-success">
+                $ <span id="total-ingresos">0.00</span>
+              </p>
             </div>
             <div class="col">
               <h5>Egresos</h5>
+              <p class="text-danger">$ <span id="total-egresos">0.00</span></p>
+            </div>
+            <div class="col">
+              <h5>Gastos %</h5>
               <p class="text-danger">
-                $<span id="total-egresos">0.00</span> (<span
-                  id="porcentaje-egresos"
-                  >0</span
-                >%)
+                <span id="porcentaje-egresos">0</span> %
               </p>
             </div>
           </div>
@@ -94,6 +102,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="script.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

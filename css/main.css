@@ -22,3 +22,8 @@ body {
 .tab-content {
   margin-top: 1rem;
 }
+
+.drop-list-months {
+  display: flex;
+  justify-content: flex-end;
+}
